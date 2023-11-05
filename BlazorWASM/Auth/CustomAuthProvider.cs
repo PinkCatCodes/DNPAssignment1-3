@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 
 public class CustomAuthProvider: AuthenticationStateProvider
 {
+    //Change
     private readonly IAuthService authService;
 
     public CustomAuthProvider(IAuthService authService)
